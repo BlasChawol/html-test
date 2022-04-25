@@ -1,0 +1,25 @@
+body {
+    background-color:#F0F8FF;
+}
+h1 {
+    background-color:dimgray;
+    text-align:center;
+    font-size:30px;
+    color:#ffffff;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-button {
+    background-color:gray;
+    border:none;
+    color:#ffffff;
+    
+}
+/*
+.menu-background {
+
+}
+*/

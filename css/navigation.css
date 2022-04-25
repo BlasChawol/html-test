@@ -1,0 +1,16 @@
+ul.nav{
+    padding:8px 16px;
+    list-style:none;
+    background-color:rgb(154, 154, 154);
+}
+ul.nav li{
+    display:inline;
+}
+ul.nav li+li:before{
+    padding: 8px;
+    color:#000000;
+    content:"/\00a0";
+}
+ul.nav li a{
+    color:#ffffff;
+}

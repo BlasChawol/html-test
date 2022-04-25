@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../css/drops-main-style.css" type="text/css" rel="stylesheet">
+        <link href="../css/navigation.css" type="text/css" rel="stylesheet">
+        <script src="../js/back-main-button.js"></script>
+        <script src="../js/plant-page.js"></script>
+        <title>Warframe掉落物整理列表</title>
+    </head>
+    <body>
+        <div id="title-block" class="title-block">
+            <div id="title-line" class="title-line">
+                <h1 id="Top-title" class="Top-title">Warframe掉落物整理列表</h1>
+            </div>
+            <div id="page-ination-block" class="page-ination-block">
+                <ul id="nav" class="nav">
+                    <li><a href="#L1">以星球為分類</a></li>
+                    <li><a href="#">以掉落物為分類</a></li>
+                    <li><a href="#">以稀有度分類(掉落物)</a></li>
+                    <li><a href="#">常用物品</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content-block" class="content-block">
+            <h3 id="line-1-title" class="title"><a name="#L1"><strong>1.</strong>以星球為分類</a></h3>
+            <div id="pictur-line-1" class="pictur-line">
+                <img src="../Picture/Planet/EarthCutout.png" alt="Earth Picture" id="thumbnail-earth" class="thumbnail" height="100px" width="172px">
+                <img src="../Picture/Planet/VenusCutout.png" alt="Venus Picture" id="thumbnail-venus" class="thumbnail" height="100px" width="172px">
+                <img src="../Picture/Planet/MercuryCutout.png" alt="Mercury Picture" id="thumbnail-mercury" class="thumbnail" height="100px" width="172px">
+                <img src="../Picture/Planet/MarsCutout.png" alt="Mars Picture" id="thumbnail-mars" class="thumbnail" height="100px" width="172px">
+                <img src="../Picture/Planet/PhobosCutout.png" alt="Phobos Picture" id="thumbnail-phobos" class="thumbnail" height="100px" width="172px">
+            </div>
+            <div id="button-concent-line-1" class="concent-button-line">
+                <button type="button" id="button-concent-earth" class="button-concent" onclick="open_earth_page()">地球</button>
+                <button type="button" id="button-concent-venus" class="button-concent" onclick="">金星</button>
+                <button type="button" id="button-concent-mercury" class="button-concent" onclick="">水星</button>
+                <button type="button" id="button-concent-mars" class="button-concent" onclick="">火星</button>
+                <button type="button" id="button-concent-phobos" class="button-concent" onclick="">火衛一</button>
+            </div>
+            <div id="picture-line-2" class="picture-line">
+                <img src="../Picture/Planet/DeimosCutout.png" alt="Deimos Picture" id="thumbnail-deimos" class="thumbnail" height="100px" width="172px">
+                <img src="../Picture/Planet/CeresCutout.png" alt="Ceres Picture" id="thumbnail-ceres" class="thumbnail" height="100px" width="172px">
+                <img>
+                <img>
+                <img>
+            </div>
+            <div id="button-concent-line-2" class="concent-button-line">
+                <button type="button" id="button-concent-deimos" class="button-concent" onclick="">火衛二</button>
+            </div>
+        </div>
+        <div id="back-to-top" class="back-to-top">
+            <!--引用https://hollinghsu.blogspot.com/2011/09/back-to-top.html-->
+            <a style="display:scroll;position:fixed;bottom:0px;right:5px;" href="#" title="" onFocus="if(this.blur)this.blur()">
+            <img alt='' border='0' onmouseover="this.src='http://4.bp.blogspot.com/-AKP9Gl_ets0/TmzrRBJPg_I/AAAAAAAADpY/M3KVvsDNJbA/s1600/Top.png'" src="http://1.bp.blogspot.com/-_gUa3K1wDNo/TmzrHROhBVI/AAAAAAAADpU/vOKm_7zL8DQ/s1600/Top_medium.png" onmouseout="this.src='http://1.bp.blogspot.com/-_gUa3K1wDNo/TmzrHROhBVI/AAAAAAAADpU/vOKm_7zL8DQ/s1600/Top_medium.png'" /></a>
+            <!--------->
+        </div>
+        <div id="bottom-button" class="bottom-button">
+            <button type="button" id="button-main" class="button-back" onclick="back_to_main_page()">返回資料整理網站</button>
+            <button type="button" id="buttton-back" class="button-back" onclick="history.back(-1)">返回上一步</button>
+        </div>
+    </body>
+</html>

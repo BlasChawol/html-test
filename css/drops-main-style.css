@@ -1,0 +1,58 @@
+body{
+    background-color:#f0f8ff;
+}
+h1.Top-title{
+    background-color:dimgray;
+    text-align:center;
+    font-size:40px;
+    color:#ffffff;
+}
+/*
+img.thumbnail:hover{
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+}
+#thumbnail-earth{
+    
+    padding:45px 70px;
+    position:relative;
+    left:auto;
+    top:auto;
+    
+}
+
+#thumbnail-venus{
+    position:relative;
+    left:10%;
+    top:22.5%;
+}
+*/
+.button-concent{
+    text-align:center;
+    background-color:#4caf50;
+    border:none;
+    color:#ffffff;
+    padding:15px 70px;
+    text-decoration: none;
+    display: inline;
+    font-size:16px;
+    border-radius: 8px;
+}
+.button-concent:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button-back{
+    text-align:center;
+    background-color:#4caf50;
+    border:none;
+    color:#ffffff;
+    padding:15px 32px;
+    text-decoration: none;
+    display: inline;
+    font-size:16px;
+    border-radius: 8px;
+}
+.button-back:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

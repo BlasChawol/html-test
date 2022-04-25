@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <link href="../css/earth-style.css" rel="stylesheet" type="text/css">
+        <link href="../css/navigation.css" rel="stylesheet" type="text/css">
+        <link href="../css/table-drops.css" rel="stylesheet" type="text/css">
+        <script src="../js/back-main-button.js"></script>
+        <script src="../js/open-drops-page.js"></script>
+
+        <title>地球</title>
+    </head>
+    <body>
+        <div>
+            <!--
+            <h1>地球</h1>
+        
+        <h3>掉落物列表(依稀有度排列)</h3>
+        <table border = "2">
+            <tr>
+                <th>圖片</th>
+                <th>名稱</th>
+                <th>稀有度</th>
+                <th>其他掉落位置</th>
+            </tr>
+            <tr>
+                <td background = "Picture/Item/Ferrite-35.png"></td>
+                <td>鐵氧體</td>
+                <td>常見</td>
+                <td><input type = "button" onclick = "javascript:location.href = ''" value = " " name="Ferrite" style = "width : 97px ; height : 20px"></td>
+            </tr>
+            <tr>
+                <td background = "Picture/Item/Rubedo-35.png"></td>
+                <td>紅化結晶</td>
+                <td>罕見</td>
+                <td><input type = "button" onclick = "javascript:location.href = ''" value = " " name="Rubedo" style = "width : 97px ; height : 20px"></td>
+            </tr>
+            <tr>
+                <td background = "Picture/Item/Neurodes-35.png"></td>
+                <td>神經元</td>
+                <td>稀有</td>
+                <td><input type = "button" onclick = "javascript:location.href = ''" value = " " name="Neurodes" style = "width : 97px ; height : 20px"></td>                
+            </tr>
+            <tr>
+                <td background = "Picture/Item/DetoniteAmpule-35.png"></td>
+                <td>爆燃安瓿</td>
+                <td>研究</td>
+                <td><input type = "button" onclick = "javascript:location.href = ''" value = " " name="DetoniteAmpule" style = "width : 97px ; height : 20px"></td> 
+            </tr>
+        </table>
+            -->
+        </div>
+        <div id="title-block" class="title">
+            <div id="title-line" class="title-line">
+                <h1 id="Top-title" class="Top-title">地球</h1>
+            </div>
+            <div id="page-ination" class="page-ination">
+                <ul id="nav" class="nav">
+                    <li><a href="#L1">星球簡介</a></li>
+                    <li><a href="#L2">掉落物列表</a></li>
+                    <li><a href="#L3">任務列表</a></li>
+                    <li><a href="#L4">頭目</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content-block" class="content">           
+            <div id="narrate-earth-block" class="narrate-block">
+                <h3 id="title-narrate-earth" class="title-narrate"><a name="#L1"><strong>1.</strong>星球簡介</a></h3>
+                <p id="narrate-earth" class="narrate"></p>
+            </div>
+            <div id="table-drops-earth-block" class="table-drops-block">
+                <h3 id="title-drops-earth" class="title-drops"><a name="#L2"><strong>2.</strong>掉落物列表(以稀有度排列)</a></h3>
+                <table id="table-drops-earth" class="table-drops">
+                    <tr id="table-drops-title-earth" class="table-drops-title">
+                        <th><strong>圖片</strong></th>
+                        <th><strong>名稱</strong></th>
+                        <th><strong>稀有度</strong></th>
+                        <th><strong>其他掉落位置</strong></th>
+                    </tr>
+                    <tr id="table-drops-ferrite-earth" class="table-drops-concent">
+                        <td><img src="../Picture/Item/Ferrite-35.png"></td>
+                        <td>鐵氧體</td>
+                        <td>常見</td>
+                        <td><button type="button" id="button-ferrite" class="button-drops" onclick="open_ferrite_page()">點我查看詳細資料</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>        
+        <div id="bottom-button" class="bottom-button">
+            <button type="button" id="button-main" class="button-back" onclick="back_to_main_page()">返回資料整理網站</button>
+            <button type="button" id="buttton-back" class="button-back" onclick="history.back(-1)">返回上一步</button>
+            <button type="button" id="button-drop" class="button-back" onclick="back_to_drop_page()">返回掉落物整理網站</button>
+        </div>
+        <div id="back-to-top" class="back-to-top">
+            <!--引用https://hollinghsu.blogspot.com/2011/09/back-to-top.html-->
+            <a style="display:scroll;position:fixed;bottom:0px;right:5px;" href="#" title="" onFocus="if(this.blur)this.blur()">
+            <img alt='' border='0' onmouseover="this.src='http://4.bp.blogspot.com/-AKP9Gl_ets0/TmzrRBJPg_I/AAAAAAAADpY/M3KVvsDNJbA/s1600/Top.png'" src="http://1.bp.blogspot.com/-_gUa3K1wDNo/TmzrHROhBVI/AAAAAAAADpU/vOKm_7zL8DQ/s1600/Top_medium.png" onmouseout="this.src='http://1.bp.blogspot.com/-_gUa3K1wDNo/TmzrHROhBVI/AAAAAAAADpU/vOKm_7zL8DQ/s1600/Top_medium.png'" /></a>
+            <!--------->
+        </div>
+
+    </body>
+</html>
