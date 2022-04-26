@@ -13,3 +13,14 @@ tr.table-drops-concent:nth-child(even){
 tr.table-drops-concent:nth-child(odd){
     background-color:#C0C0C0;
 }
+.button-drops{
+    text-align:center;
+    background-color:#4caf50;
+    border:none;
+    color:#ffffff;
+    padding:10px 30px;
+    text-decoration: none;
+    display: inline;
+    font-size:16px;
+    border-radius: 8px;
+}
