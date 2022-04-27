@@ -4,7 +4,7 @@ td,th.table-drops{
     padding: 20px;
     border-bottom: 1px solid #ddd;
 }
-tr.table-drops-title{
+tr.table-title-drops{
     background-color:#808080;
 }
 tr.table-drops-concent:nth-child(even){
