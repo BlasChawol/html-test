@@ -1,0 +1,37 @@
+body{
+    background-color:#f0f8ff;
+}
+h1.Top-title{
+    background-color:dimgray;
+    font-size:40px;
+    color:#ffffff;
+}
+ul.page-list{
+    margin: 0;
+    padding: 0;
+}
+h3.tag{
+    background-color:#f5f5dc;
+    font-size:25px;
+    color:#000000;
+    border-style: hidden;
+}
+h4.note{
+    font-size:15px;
+    color:#ff0000;
+}
+.drop-button {
+    text-align: center;
+    background-color:#ffffff;
+    color:#000000;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size:16px;
+    border:2px solid #4caf50   
+}
+.drop-button:hover{
+    transition-duration: 100ms;
+    background-color:#4caf50;
+    color:#ffffff;
+}
