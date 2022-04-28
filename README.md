@@ -4,14 +4,14 @@
 ___
 
 ## **menu**
-1. ### Update[1]
-2. ### Content[2]
-3. ### UnFixed bug list[3]
-4. ### Bug list[4]
+1. ### Update
+2. ### Content
+3. ### UnFixed bug list
+4. ### Bug list
 
 ___
 
-1. ## UpDate[1]
+1. ## UpDate
 ### **Ver:1.0.1:**
 > 1. #### **UpDate time: 2022-04-28-00:40(UTC-8)**
 > 2. #### **UpDate Content:**
@@ -28,7 +28,7 @@ ___
 
 ### **Ver:1.0.0**
 > 1. #### **Update time: 2022-04-26-05:59(UTC-8)**
-> 2. #### ** UpDate Content:**
+> 2. #### **UpDate Content:**
 > > - Up file to Github
 > 3. ### **Fixed Bug:**
 > > ***None***
@@ -37,7 +37,7 @@ ___
 
 ___
 
-2. ## **Content:[2]**
+2. ## **Content:**
 > ### This is a website for [WarFrame](https://www.warframe.com/)
 > > All Data comes form [WARFRAME%20Wiki%20Fandom](https://warframe.fandom.com/wiki/WARFRAME_Wiki) (English) [WARFRAME中文维基%20灰机wiki](https://warframe.huijiwiki.com/wiki/Mainpage) (Chinese)
 > I just making a page for consolidation drops in one page(one plant, one page).
@@ -45,12 +45,12 @@ ___
 ___
 
 3. ## **Unfixed Bug List:**
-> **/[ X /]** Drops table style has been applied in mission table(Add time:2022-04-28-00:50)
+> **[ X ]** Drops table style has been applied in mission table(Add time:2022-04-28-00:50)
 
 ___
 
 4. ## **Bug list:[4]**
-> **/[ X /]** Drops table style has been applied in mission table
+> **[ X ]** Drops table style has been applied in mission table
 > > - Add time:2022-04-28-00:50
 
 ___
